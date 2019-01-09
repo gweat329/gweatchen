@@ -27,3 +27,9 @@ zengzhen = PythonStudent()
 print(zengzhen.name)
 print(zengzhen.age)
 zengzhen.doHomework()
+
+class Teacher():
+    def sleep(self):
+        print("睡觉......")
+t = Teacher()
+t.sleep()
